@@ -1,7 +1,8 @@
 <template>
-  <nav>
+  <nav class="bg-gray-400">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/AlertView">Alert</router-link>
   </nav>
   <router-view/>
 </template>
