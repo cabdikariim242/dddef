@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AlertView from '@/views/AlertView.vue'
+import rotating from '@/views/rotating.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/AlertView',
     name: 'AlertView',
     component: AlertView 
+  },
+    {
+    path: '/rotating',
+    name: 'rotating',
+    component: rotating 
   },
   {
     path: '/about',
